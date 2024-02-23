@@ -14,7 +14,7 @@ mongoose
     .connect(process.env.MONGO_URL)
     .then(() => console.log("DB Connected!"))
     .catch((err) => console.error(err.message));
-app.use(express.json({ limit: "200mb" }));
+app.use(express.json());
 app.use(
     express.urlencoded({
         limit: "200mb",
@@ -26,7 +26,7 @@ app.use(cookieParser());
 app.use(express.json());
 app.use(
     cors({
-        origin: "*",
+        origin: "http://localhost:3000",
         methods: "*",
         credentials: true,
     })
