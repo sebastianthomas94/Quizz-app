@@ -2,6 +2,8 @@ import { useNavigate } from "react-router-dom";
 import cookieCheck from "../helpers/cookieCheck.js";
 import { useEffect } from "react";
 import NavBar from "../components/NavBar.jsx";
+import TakeTest from "../components/TakeTest.jsx";
+import PreviousQuizCard from "../components/PreviousQuizCard.jsx";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -11,9 +13,10 @@ const Home = () => {
   });
 
   return (
-    <div className="lex h-screen bg-gradient-to-r from-blue-500 to-green-500">
+    <div className="">
       <NavBar />
-      <h1>Home</h1>
+      <TakeTest/>
+      <PreviousQuizCard/>
     </div>
   );
 };

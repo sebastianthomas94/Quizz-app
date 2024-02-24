@@ -10,6 +10,7 @@ import Welcome from "./pages/Welcome";
 import Home from "./pages/Home";
 import { Provider } from "react-redux";
 import store from "./store";
+import Quiz from "./pages/Quiz";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "/home",
         element: <Home />,
+      },
+      {
+        path: "/quiz",
+        element: <Quiz />,
       },
     ],
   },

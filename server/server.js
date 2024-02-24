@@ -5,6 +5,7 @@ import path from "path";
 import cors from "cors";
 import cookieParser from "cookie-parser";
 import userRouter from "./routes/userRouter.js";
+import quizRouter from "./routes/quizRouter.js";
 
 
 
@@ -33,6 +34,7 @@ app.use(
 );
 
 app.use("/user",userRouter);
+app.use("/quiz",quizRouter);
 
 app.listen(process.env.PORT, () => {
     console.log(`server started at ${process.env.PORT}`)

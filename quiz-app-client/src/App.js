@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App lex h-screen bg-gradient-to-r from-blue-500 to-green-500">
             <ToastContainer />
       <Outlet />
     </div>

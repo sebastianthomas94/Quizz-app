@@ -1,0 +1,332 @@
+[
+    {
+        "category": "General Knowledge",
+        "question": "What is the capital of France?",
+        "options": [
+            "London",
+            "Paris",
+            "Berlin",
+            "Madrid"
+        ],
+        "answer": "Paris"
+    },
+    {
+        "category": "Science",
+        "question": "What is the chemical symbol for water?",
+        "options": [
+            "H2O",
+            "CO2",
+            "O2",
+            "CH4"
+        ],
+        "answer": "H2O"
+    },
+    {
+        "category": "History",
+        "question": "Who was the first President of the United States?",
+        "options": [
+            "Thomas Jefferson",
+            "George Washington",
+            "John Adams",
+            "Abraham Lincoln"
+        ],
+        "answer": "George Washington"
+    },
+    {
+        "category": "Geography",
+        "question": "What is the longest river in the world?",
+        "options": [
+            "Amazon River",
+            "Nile River",
+            "Yangtze River",
+            "Mississippi River"
+        ],
+        "answer": "Nile River"
+    },
+    {
+        "category": "Entertainment",
+        "question": "Which actor played the character of Iron Man in the Marvel Cinematic Universe?",
+        "options": [
+            "Chris Hemsworth",
+            "Chris Evans",
+            "Robert Downey Jr.",
+            "Mark Ruffalo"
+        ],
+        "answer": "Robert Downey Jr."
+    },
+    {
+        "category": "Sports",
+        "question": "Who has won the most FIFA World Cup titles?",
+        "options": [
+            "Germany",
+            "Brazil",
+            "Argentina",
+            "Italy"
+        ],
+        "answer": "Brazil"
+    },
+    {
+        "category": "Technology",
+        "question": "Who is the CEO of Tesla?",
+        "options": [
+            "Bill Gates",
+            "Jeff Bezos",
+            "Elon Musk",
+            "Tim Cook"
+        ],
+        "answer": "Elon Musk"
+    },
+    {
+        "category": "Music",
+        "question": "Who is known as the King of Pop?",
+        "options": [
+            "Michael Jackson",
+            "Elvis Presley",
+            "Justin Bieber",
+            "Beyoncé"
+        ],
+        "answer": "Michael Jackson"
+    },
+    {
+        "category": "Mathematics",
+        "question": "What is the value of pi (π)?",
+        "options": [
+            "3.14",
+            "2.71",
+            "1.61",
+            "4.13"
+        ],
+        "answer": "3.14"
+    },
+    {
+        "category": "Food",
+        "question": "What is the main ingredient in guacamole?",
+        "options": [
+            "Tomato",
+            "Avocado",
+            "Onion",
+            "Lime"
+        ],
+        "answer": "Avocado"
+    },
+    {
+        "category": "Literature",
+        "question": "Who wrote the novel 'To Kill a Mockingbird'?",
+        "options": [
+            "Harper Lee",
+            "John Steinbeck",
+            "Mark Twain",
+            "F. Scott Fitzgerald"
+        ],
+        "answer": "Harper Lee"
+    },
+    {
+        "category": "Movies",
+        "question": "Which movie won the Academy Award for Best Picture in 2020?",
+        "options": [
+            "Parasite",
+            "1917",
+            "Joker",
+            "Once Upon a Time in Hollywood"
+        ],
+        "answer": "Parasite"
+    },
+    {
+        "category": "Animals",
+        "question": "What is the largest mammal in the world?",
+        "options": [
+            "Elephant",
+            "Blue Whale",
+            "Giraffe",
+            "Hippo"
+        ],
+        "answer": "Blue Whale"
+    },
+    {
+        "category": "Space",
+        "question": "What is the closest planet to the Sun?",
+        "options": [
+            "Earth",
+            "Mars",
+            "Mercury",
+            "Venus"
+        ],
+        "answer": "Mercury"
+    },
+    {
+        "category": "Politics",
+        "question": "Who is the current Prime Minister of the United Kingdom?",
+        "options": [
+            "Boris Johnson",
+            "Theresa May",
+            "David Cameron",
+            "Tony Blair"
+        ],
+        "answer": "Boris Johnson"
+    },
+    {
+        "category": "Art",
+        "question": "Who painted the Mona Lisa?",
+        "options": [
+            "Vincent van Gogh",
+            "Leonardo da Vinci",
+            "Pablo Picasso",
+            "Michelangelo"
+        ],
+        "answer": "Leonardo da Vinci"
+    },
+    {
+        "category": "Fashion",
+        "question": "Which designer is known for the creation of the little black dress?",
+        "options": [
+            "Coco Chanel",
+            "Gianni Versace",
+            "Ralph Lauren",
+            "Calvin Klein"
+        ],
+        "answer": "Coco Chanel"
+    },
+    {
+        "category": "Languages",
+        "question": "Which language is the most spoken in the world?",
+        "options": [
+            "Spanish",
+            "English",
+            "Hindi",
+            "Mandarin Chinese"
+        ],
+        "answer": "Mandarin Chinese"
+    },
+    {
+        "category": "Mythology",
+        "question": "Who is the Greek god of the sea?",
+        "options": [
+            "Zeus",
+            "Poseidon",
+            "Hades",
+            "Athena"
+        ],
+        "answer": "Poseidon"
+    },
+    {
+        "category": "Technology",
+        "question": "What is the name of Apple's virtual assistant?",
+        "options": [
+            "Siri",
+            "Alexa",
+            "Cortana",
+            "Google Assistant"
+        ],
+        "answer": "Siri"
+    },
+    {
+        "category": "Science",
+        "question": "What is the chemical symbol for water?",
+        "options": [
+            "H2O",
+            "CO2",
+            "NaCl",
+            "O2"
+        ],
+        "answer": "H2O"
+    },
+    {
+        "category": "Geography",
+        "question": "What is the capital city of France?",
+        "options": [
+            "London",
+            "Berlin",
+            "Madrid",
+            "Paris"
+        ],
+        "answer": "Paris"
+    },
+    {
+        "category": "History",
+        "question": "In which year did World War II end?",
+        "options": [
+            "1945",
+            "1918",
+            "1939",
+            "1950"
+        ],
+        "answer": "1945"
+    },
+    {
+        "category": "Sports",
+        "question": "Which sport is played with a shuttlecock?",
+        "options": [
+            "Football",
+            "Cricket",
+            "Badminton",
+            "Tennis"
+        ],
+        "answer": "Badminton"
+    },
+    {
+        "category": "Technology",
+        "question": "Who is the CEO of Tesla?",
+        "options": [
+            "Elon Musk",
+            "Jeff Bezos",
+            "Bill Gates",
+            "Mark Zuckerberg"
+        ],
+        "answer": "Elon Musk"
+    },
+    {
+        "category": "Movies",
+        "question": "Who directed the movie 'The Shawshank Redemption'?",
+        "options": [
+            "Steven Spielberg",
+            "Quentin Tarantino",
+            "Martin Scorsese",
+            "Frank Darabont"
+        ],
+        "answer": "Frank Darabont"
+    },
+    {
+        "category": "Literature",
+        "question": "Who wrote 'To Kill a Mockingbird'?",
+        "options": [
+            "J.K. Rowling",
+            "Harper Lee",
+            "George Orwell",
+            "F. Scott Fitzgerald"
+        ],
+        "answer": "Harper Lee"
+    },
+    {
+        "category": "Music",
+        "question": "Which band released the album 'The Dark Side of the Moon'?",
+        "options": [
+            "The Beatles",
+            "Pink Floyd",
+            "Led Zeppelin",
+            "Queen"
+        ],
+        "answer": "Pink Floyd"
+    },
+    {
+        "category": "Food",
+        "question": "What is the main ingredient in guacamole?",
+        "options": [
+            "Tomato",
+            "Onion",
+            "Avocado",
+            "Lemon"
+        ],
+        "answer": "Avocado"
+    },
+    {
+        "category": "Animals",
+        "question": "Which animal is known as the 'King of the Jungle'?",
+        "options": [
+            "Lion",
+            "Tiger",
+            "Leopard",
+            "Cheetah"
+        ],
+        "answer": "Lion"
+    }
+]

@@ -12,20 +12,26 @@ export const apiSlice = createApi({
 const api = apiSlice.injectEndpoints({
   endpoints: (builder) => ({
     signup: builder.mutation({
-      query: ({data}) => ({
+      query: ({ data }) => ({
         url: "/user/signup",
         method: "post",
         body: data,
       }),
     }),
     signin: builder.mutation({
-        query: (data) => ({
-          url: "/user/signin",
-          method: "post",
-          body: data,
-        }),
+      query: (data) => ({
+        url: "/user/signin",
+        method: "post",
+        body: data,
       }),
+    }),
+    getQuestians: builder.mutation({
+      query: () => ({
+        url: "/quiz/questians",
+        method: "get"
+      }),
+    }),
   }),
 });
 
-export const { useSignupMutation, useSigninMutation } = api;
+export const { useSignupMutation, useSigninMutation, useGetQuestiansMutation } = api;
