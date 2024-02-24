@@ -10,7 +10,7 @@ const Home = () => {
   useEffect(() => {
     console.info("Home page");
     if (!cookieCheck()) navigate("/login");
-  });
+  },[]);
 
   return (
     <div className="">

@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const TakeTest = () => {
     const navigate = useNavigate();
     const handleClick = ()=>{
-        navigate('/quiz');
+        navigate('/loading');
     }
   return (
     <div className="flex justify-center m-10">

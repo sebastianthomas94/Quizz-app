@@ -6,6 +6,8 @@ import cors from "cors";
 import cookieParser from "cookie-parser";
 import userRouter from "./routes/userRouter.js";
 import quizRouter from "./routes/quizRouter.js";
+import session from "express-session";
+import dataRouter from "./routes/dataRouter.js";
 
 
 
@@ -16,6 +18,11 @@ mongoose
     .then(() => console.log("DB Connected!"))
     .catch((err) => console.error(err.message));
 app.use(express.json());
+app.use(session({
+    secret: 'keyboard cat',
+    resave: false,
+    saveUninitialized: false
+  }))
 app.use(
     express.urlencoded({
         limit: "200mb",
@@ -35,6 +42,7 @@ app.use(
 
 app.use("/user",userRouter);
 app.use("/quiz",quizRouter);
+app.use('/data', dataRouter);
 
 app.listen(process.env.PORT, () => {
     console.log(`server started at ${process.env.PORT}`)

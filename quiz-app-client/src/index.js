@@ -11,6 +11,8 @@ import Home from "./pages/Home";
 import { Provider } from "react-redux";
 import store from "./store";
 import Quiz from "./pages/Quiz";
+import LoadingPage from "./pages/LoadingPage";
+import LeaderboardPage from "./pages/LeaderboardPage";
 
 const router = createBrowserRouter([
   {
@@ -36,6 +38,14 @@ const router = createBrowserRouter([
       {
         path: "/quiz",
         element: <Quiz />,
+      },
+      {
+        path: "/loading",
+        element: <LoadingPage />,
+      },
+      {
+        path: "/leaderboard",
+        element: <LeaderboardPage />,
       },
     ],
   },

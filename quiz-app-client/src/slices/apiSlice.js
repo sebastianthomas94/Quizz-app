@@ -26,12 +26,49 @@ const api = apiSlice.injectEndpoints({
       }),
     }),
     getQuestians: builder.mutation({
-      query: () => ({
+      query: ({ questianNumber, prevAnswer, skip }) => ({
         url: "/quiz/questians",
-        method: "get"
+        method: "get",
+        params: {
+          questianNumber,
+          prevAnswer, 
+          skip// Include questianNumber as a query parameter
+        },
+      }),
+    }),
+    getRank: builder.mutation({
+      query: () => ({
+        url: "/data/rank",
+        method: "get",
+      }),
+    }),
+    getPreviousQuizzes: builder.mutation({
+      query: () => ({
+        url: "/data/prevquiz",
+        method: "get",
+      }),
+    }),
+    getLeaderboard: builder.mutation({
+      query: () => ({
+        url: "/data/leaderboard",
+        method: "get",
+      }),
+    }),
+    logout: builder.mutation({
+      query: () => ({
+        url: "/user/logout",
+        method: "get",
       }),
     }),
   }),
 });
 
-export const { useSignupMutation, useSigninMutation, useGetQuestiansMutation } = api;
+export const {
+  useSignupMutation,
+  useSigninMutation,
+  useGetQuestiansMutation,
+  useGetRankMutation,
+  useGetPreviousQuizzesMutation,
+  useGetLeaderboardMutation,
+  useLogoutMutation,
+} = api;
