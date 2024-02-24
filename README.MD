@@ -23,11 +23,19 @@ To run the project locally, follow these steps:
 
 1. Clone the repository:
 
-   ```bash
+    ```bash
    git clone https://github.com/sebastianthomas94/Quizz-app.git
 
 2. Navigate to the project directory:
 
-   ```bash
+    ```bash
    cd quiz-app
 
+3. Navgate to both server and client folder
+
+    ```bash
+    npm i
+4. after that run both the servers with command 
+
+    ```bash
+    npm start
